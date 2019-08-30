@@ -8,6 +8,6 @@ public class ClassAndMeethod {
 
     public static void main(String[] args) {
 
-        
+
     }
 }
