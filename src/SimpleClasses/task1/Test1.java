@@ -5,7 +5,7 @@ public class Test1 {
     int first;
     int second;
 
-    private void output() {
+    public void output() {
 
         System.out.println("First value is " + first + ", second value is " + second);
     }
