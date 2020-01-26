@@ -8,6 +8,11 @@ public class ClassAndMeethod {
 
     public static void main(String[] args) {
 
-
+        Test1 test1  = new Test1();
+        test1.setFirst(3);
+        test1.setSecond(4);
+        System.out.println(test1.sum(1, 7));
+        System.out.println(test1.maxValue(3,2));
+        test1.output();
     }
 }
