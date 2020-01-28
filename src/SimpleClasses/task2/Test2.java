@@ -9,12 +9,28 @@ public class Test2 {
     int secondVariable;
 
     public void test2() {
-        
+
     }
 
     public void test2() {
 
         firstVariable = 0;
         secondVariable = 0;
+    }
+
+    public void setFirstVariable(int firstVariable) {
+        this.firstVariable = firstVariable;
+    }
+
+    public void setSecondVariable(int secondVariable) {
+        this.secondVariable = secondVariable;
+    }
+
+    public int getFirstVariable() {
+        return firstVariable;
+    }
+
+    public int getSecondVariable() {
+        return secondVariable;
     }
 }
