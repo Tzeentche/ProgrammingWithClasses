@@ -8,14 +8,14 @@ public class Test2 {
     int firstVariable;
     int secondVariable;
 
-    public void test2() {
-
+    public Test2() {
     }
 
-    public void test2() {
+    public Test2(int firstVariable, int secondVariable) {
 
-        firstVariable = 0;
-        secondVariable = 0;
+        this.firstVariable = firstVariable;
+        this.secondVariable = secondVariable;
+
     }
 
     public void setFirstVariable(int firstVariable) {
