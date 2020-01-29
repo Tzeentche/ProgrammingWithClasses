@@ -8,6 +8,6 @@ package SimpleClasses.task6;
 public class TimeManager {
 
     public static void main(String[] args) {
-        
+
     }
 }

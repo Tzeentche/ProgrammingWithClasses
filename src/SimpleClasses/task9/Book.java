@@ -12,6 +12,6 @@ package SimpleClasses.task9;
 public class Book {
 
     public static void main(String[] args) {
-        
+
     }
 }

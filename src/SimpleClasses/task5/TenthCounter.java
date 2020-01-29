@@ -9,6 +9,6 @@ public class TenthCounter {
 
     public static void main(String[] args) {
 
-        
+
     }
 }

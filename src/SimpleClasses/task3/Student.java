@@ -8,6 +8,12 @@ public class Student {
 
     public static void main(String[] args) {
 
-        
+        Studentt firstStudentt = new Studentt();
+        Studentt secondStudentt = new Studentt();
+        Studentt thirdStudentt = new Studentt();
+        Studentt fourthStudentt = new Studentt();
+        Studentt fifthStudentt = new Studentt();
+        Studentt sixthStudentt = new Studentt();
+        Studentt seventhStudentt = new Studentt();
     }
 }
