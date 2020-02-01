@@ -8,12 +8,19 @@ public class Student {
 
     public static void main(String[] args) {
 
-        Studentt firstStudentt = new Studentt();
-        Studentt secondStudentt = new Studentt();
-        Studentt thirdStudentt = new Studentt();
-        Studentt fourthStudentt = new Studentt();
-        Studentt fifthStudentt = new Studentt();
-        Studentt sixthStudentt = new Studentt();
-        Studentt seventhStudentt = new Studentt();
+        Studentt[] study;
+        study = new Studentt[]{
+                new Studentt("Burak", 3, new int[]{9, 8, 10, 9, 10}),
+                new Studentt("Ryabovolov", 4, new int[]{9, 8, 10, 9, 10}),
+                new Studentt("Golubnichiy", 3, new int[]{9, 9, 10, 9, 10}),
+                new Studentt("Yarmalowich", 3, new int[]{9, 8, 9, 9, 10}),
+                new Studentt("Romanov", 2, new int[]{9, 8, 10, 9, 10}),
+                new Studentt("Bareisha", 4, new int[]{10, 10, 10, 10, 10}),
+                new Studentt("Drebezova", 4, new int[]{9, 9, 9, 9, 8}),
+                new Studentt("Bobcov", 3, new int[]{9, 10, 8, 9, 10}),
+                new Studentt("Simonenkova", 2, new int[]{9, 8, 9, 9, 10}),
+                new Studentt("Belskaya", 4, new int[]{7, 8, 8, 9, 10})
+        };
+
     }
 }
