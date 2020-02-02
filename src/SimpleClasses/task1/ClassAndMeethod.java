@@ -8,6 +8,8 @@ public class ClassAndMeethod {
 
     public static void main(String[] args) {
 
+//        Start methods to work:
+        
         Test1 test1  = new Test1();
         test1.setFirst(3);
         test1.setSecond(4);

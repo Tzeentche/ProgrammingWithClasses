@@ -40,7 +40,7 @@ public class Test1 {
     }
 
 //    Max value finder method:
-    
+
     public int maxValue(int valueOne, int valueTwo) {
 
         int max = valueOne;
