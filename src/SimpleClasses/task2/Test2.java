@@ -5,11 +5,17 @@ package SimpleClasses.task2;
 
 public class Test2 {
 
+//    Declare global variables:
+
     int firstVariable;
     int secondVariable;
 
+//    Add constructor:
+
     public Test2() {
     }
+
+//    Add constructor with enter parameters:
 
     public Test2(int firstVariable, int secondVariable) {
 
@@ -17,6 +23,8 @@ public class Test2 {
         this.secondVariable = secondVariable;
 
     }
+
+//    Add set- and get- methods:
 
     public void setFirstVariable(int firstVariable) {
         this.firstVariable = firstVariable;
