@@ -6,15 +6,19 @@ package SimpleClasses.task3;
 
 public class Studentt {
 
+//    Declare global variables
+
     String name;
     int classNumber;
     int[] achives = new int[5];
     double medium;
 
+//    Create class constructor with initializing variables:
+
     public Studentt(String name,int classNumber, int[] achives) {
 
         this.name = name;
-        this.classNumber =classNumber;
+        this.classNumber = classNumber;
         this.achives = achives;
     }
 }
