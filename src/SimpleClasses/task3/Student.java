@@ -8,6 +8,8 @@ public class Student {
 
     public static void main(String[] args) {
 
+//        Create example of array and fillit with dates:
+        
         Studentt[] study;
         study = new Studentt[]{
                 new Studentt("Burak", 3, new int[]{9, 8, 10, 9, 10}),
