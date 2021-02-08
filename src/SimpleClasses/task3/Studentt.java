@@ -11,7 +11,6 @@ public class Studentt {
     String name;
     int classNumber;
     int[] achives = new int[5];
-    double medium;
 
 //    Create class constructor with initializing variables:
 
