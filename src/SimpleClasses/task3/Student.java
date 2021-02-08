@@ -6,11 +6,12 @@ package SimpleClasses.task3;
 
 public class Student {
 
+    private static Studentt[] study;
+
     public static void main(String[] args) {
 
 //        Create example of array and fillit with dates:
 
-        Studentt[] study;
         study = new Studentt[]{
                 new Studentt("Burak", 3, new int[]{9, 8, 10, 9, 10}),
                 new Studentt("Ryabovolov", 4, new int[]{9, 8, 10, 9, 10}),
@@ -24,5 +25,15 @@ public class Student {
                 new Studentt("Belskaya", 4, new int[]{7, 8, 8, 9, 10})
         };
 
+    }
+
+    public void outputDates(Studentt[] study) {
+
+        for(int i = 0; i < study.length; i++) {
+
+            int[] arrays = new int[5];
+
+            if ()
+        }
     }
 }
