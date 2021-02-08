@@ -33,6 +33,9 @@ public class Student {
 
             int[] arrays = new int[5];
 
+            for(int j = 0; j < study[i].achives[j]; j++) {
+
+            }
             if ()
         }
     }
